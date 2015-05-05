@@ -30,7 +30,7 @@ public class Canvas extends JComponent {
             public void actionPerformed(ActionEvent e) {
                 String toquery = query.getText();
                 Parse parse = new Parse();
-                answer.setText(parse.Answer(toquery));
+                answer.setText(parse.AnswerWithString(toquery));
             }
         });
         mp.setVisible(true);

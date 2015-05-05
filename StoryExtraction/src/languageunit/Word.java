@@ -1,5 +1,7 @@
 package languageunit;
 
+import storyextraction.Parse;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -8,6 +10,7 @@ import java.util.HashSet;
 
 public class Word {
     private static HashSet<String> stopdict = new HashSet<String>();
+    private static String stopdictPath = Parse.path + "documents/stopdict";
     private String word;
     private int label;
     public Word(String _word, int _label){
@@ -27,7 +30,7 @@ public class Word {
         return (label >= 16 && label <= 22);
     }
     private static void readStopdict(){
-        File file = new File("/Users/vera/Desktop/workspace/StroyExtraction/documents/stopdict");
+        File file = new File(stopdictPath);
         BufferedReader reader = null;
         try {
             reader = new BufferedReader(new FileReader(file));

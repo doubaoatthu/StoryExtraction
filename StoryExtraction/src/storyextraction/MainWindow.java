@@ -17,7 +17,8 @@ public class MainWindow extends JComponent {
         //frame.setPreferredSize(new Dimension(1300,800));
         frame.pack();
         frame.setVisible(true);*/
+        String query = argc[0];
         Parse parse = new Parse();
-        parse.Answer("黄鹤楼欲穷千里目");
+        System.out.print("Answer: " + parse.AnswerWithString(query));
     }
 }

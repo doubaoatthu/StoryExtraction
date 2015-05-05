@@ -15,12 +15,13 @@ import java.util.ArrayList;
 
 public class Parse {
 
-    private boolean switchParser = true;
-	private String wfile = "/Users/vera/Desktop/workspace/StroyExtraction/output";
-    private String titlelist = "/Users/vera/Desktop/workspace/StroyExtraction/documents/titlelist";
-    private String docName = "/Users/vera/Desktop/workspace/StroyExtraction/documents/";
+  private boolean switchParser = true;
+  public static final String path = "../../../";
+  private String wfile = path + "output";
+  private String titlelist = path + "documents/titlelist";
+  private String docName = path + "documents/";
 	private ArrayList<Paragraph> paragraph;
-    private ArrayList<Double> Score;
+  private ArrayList<Double> Score;
 
 	public void writeFile(String filepath, Paragraph p, String sen) {
 		FileWriter writer;
@@ -34,11 +35,21 @@ public class Parse {
             writer.write('\n');
 			writer.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
 	}
+
+  public String produceAnswer(Paragraph p, String sentence) {
+    StringBuilder ret = new StringBuilder();
+    ret.append(sentence);
+    ret.append("\n\n");
+    for(Sentence s : p.getSentences())
+      ret.append(s.getMysentence());
+    ret.append("\n");
+    return ret.toString();
+  }
+
 	public void readFile(String filepath, ArrayList<String> searchKey_split){
 		File file = new File(filepath);
         BufferedReader reader = null;
@@ -194,7 +205,7 @@ public class Parse {
     public Parse(){
 
     }
-    public String Answer(String input){
+    public void Answer(String input){
         paragraph = new ArrayList<Paragraph>();
         String searchArea = input;
         ArrayList<String> searchKey_split = splitParse(searchArea);
@@ -213,7 +224,29 @@ public class Parse {
                 writeFile(wfile, pa, "");
             }
         }
-        return "";
+    }
+
+    public String AnswerWithString(String input) {
+      paragraph = new ArrayList<Paragraph>();
+      String searchArea = input;
+      ArrayList<String> searchKey_split = splitParse(searchArea);
+      int fileno = searchFiles(searchArea);
+      readFile(docName + fileno, searchKey_split);
+      OkapiBM25 bm25 = new OkapiBM25(paragraph,searchKey_split);
+      Score = bm25.getScoreSet();
+      bm25.PrintBM25();
+      int maxParagraph = getMaxParagraph();
+      StringBuilder toRet = new StringBuilder();
+      if(maxParagraph >= 0) {
+        String answer = paragraph.get(maxParagraph).selectSentences(searchKey_split, bm25.TimesEachSplit());
+        toRet.append(produceAnswer(paragraph.get(maxParagraph), answer));
+      }
+      else{
+        for(Paragraph pa : paragraph){
+          toRet.append(produceAnswer(pa, ""));
+        }
+      }
+      return toRet.toString();
     }
 }
 /**

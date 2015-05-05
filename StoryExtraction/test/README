@@ -1,0 +1,8 @@
+input : 每一行是一个query
+
+output : 每一行是一个answer, 和input一一对应, 是正确的答案.
+
+test.sh : 测试脚本
+  sh test.sh < input 2>debug
+  输出的是提取的故事
+  debug文件中的是其他的输出, 包括调试信息, 各种权值

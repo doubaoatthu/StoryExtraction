@@ -8,6 +8,9 @@ public class Logger {
   public static void setDebugFlag(boolean flag) {
     debug = flag;
   }
+  public static boolean getDebugFlag() {
+    return debug;
+  }
   public static void log(String str) {
     if(debug) {
       System.err.println(str);

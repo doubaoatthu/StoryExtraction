@@ -20,7 +20,9 @@ public class MainWindow extends JComponent {
         frame.pack();
         frame.setVisible(true);*/
         String query = argv[0];
-        if(argv.length >= 2 &&  argv[1] == "-d") Logger.setDebugFlag(true);
+        if(argv.length >= 2 && argv[1].compareTo("-d") == 0) {
+          Logger.setDebugFlag(true);
+        }
         Parse parse = new Parse();
         System.out.print(parse.AnswerWithString(query));
     }

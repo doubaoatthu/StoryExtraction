@@ -7,5 +7,5 @@ cd $work_dir
 while read line
 do
   query=$line
-  java storyextraction.MainWindow $query
+  java storyextraction.MainWindow $query -d
 done

@@ -1,5 +1,6 @@
 package TextRank;
 
+import Logger.Logger;
 import languageunit.*;
 import languageunit.Sentence;
 
@@ -61,7 +62,7 @@ public class SentenceRank {
         for(int i = 0; i < sentence_self_weight.size(); i++){
             if(sentence_self_weight.get(i) >= thold){
                 start = i;
-                System.out.println("Start sentence index:"+ i + " weight:"+sentence_self_weight.get(i));
+              Logger.log("Start sentence index:" + i + " weight:" + sentence_self_weight.get(i));
                 break;
             }
         }
@@ -70,7 +71,7 @@ public class SentenceRank {
             if(sentence_self_weight.get(i) >= sentence_self_weight.get(maxi))
                 maxi = i;
         }
-        System.out.println("Max sentence index:"+ maxi + " weight:"+sentence_self_weight.get(maxi));
+      Logger.log("Max sentence index:" + maxi + " weight:" + sentence_self_weight.get(maxi));
         ArrayList<Word> keylist = new ArrayList<Word>();
         for(int i = start; i <= maxi; i++){
             sentences.get(i).getKeywords(keylist);
@@ -79,7 +80,7 @@ public class SentenceRank {
             double nearbyWeight = getNearbyWeight(sentences.get(i),keylist);
             double totalWeight = nearbyWeight + sentence_self_weight.get(i);
             if(totalWeight >= thold2){
-                System.out.println("check sentence index:"+ i + " total weight:"+ totalWeight);
+              Logger.log("check sentence index:" + i + " total weight:" + totalWeight);
                 sentences.get(i).getKeywords(keylist);
             }
             else{
@@ -92,7 +93,7 @@ public class SentenceRank {
         //System.out.println("End:"+end);
     }
     public ArrayList<Integer> sentenceNo(){
-        System.out.println("self weight: "+ sentence_self_weight);
+      Logger.log("self weight: " + sentence_self_weight);
         ArrayList<Integer> toret = new ArrayList<Integer>();
         toret.add(startSentence);
         toret.add(endSentence);

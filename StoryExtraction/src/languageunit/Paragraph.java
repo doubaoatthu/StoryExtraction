@@ -1,6 +1,7 @@
 package languageunit;
 
 import Function.splitFunction;
+import Logger.Logger;
 import TextRank.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -39,11 +40,11 @@ public class Paragraph {
         return paraSize;
     }
     public void printParagraph(){
-        System.out.println("Paragraph");
+        Logger.log("Paragraph");
         for(int i = 0; i < sentences.size(); i++){
             sentences.get(i).printSentence();
         }
-        System.out.println("NounList");
+        Logger.log("NounList");
       /*  for(NounUnit n:nounlist)
             n.printUnit();*/
         getKeywordRank();
@@ -51,7 +52,7 @@ public class Paragraph {
     public void getKeywordRank(){
        keywordWeights = new TextRankKeyword().getKeyword(keywordlist);
        for(int i = 0; i < keywordWeights.size() && i < 11/*11 means the rank i need*/; i++){
-           System.out.print(keywordWeights.get(i).getWord() + " " + keywordWeights.get(i).getWeight() + "  ");
+          Logger.log(keywordWeights.get(i).getWord() + " " + keywordWeights.get(i).getWeight() + "  ");
        }
        /*for(KeywordWeight k:keywordWeights)
            System.out.print(k.getWord()+" "+k.getWeight()+" ");*/
@@ -85,7 +86,7 @@ public class Paragraph {
         for(int i = sentenceno.get(0); i <= sentenceno.get(1); i++){
             toret += sentences.get(i).getMysentence();
         }
-        System.out.println(toret);
+        Logger.log(toret);
         return toret;
     }
 }

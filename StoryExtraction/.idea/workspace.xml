@@ -24,25 +24,145 @@
     <favorites_list name="StroyExtraction" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Parse.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/storyextraction/Parse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50693375" vertical-offset="199" max-vertical-offset="3952">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OkapiBM25.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TextRank/OkapiBM25.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.62963" vertical-offset="583" max-vertical-offset="1232">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#OkapiBM25#0;class#OkapiBM25#0" expanded="false" />
+                <element signature="method#getUpperK#0;class#OkapiBM25#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BM25.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TextRank/BM25.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0" vertical-offset="904" max-vertical-offset="2112">
+              <caret line="70" column="7" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1187#1204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sentence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/languageunit/Sentence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Sentence#0;class#Sentence#0" expanded="false" />
+                <element signature="method#processSentence#0;class#Sentence#0" expanded="false" />
+                <element signature="method#getNouns#0;class#Sentence#0" expanded="false" />
+                <element signature="method#printSentence#0;class#Sentence#0" expanded="false" />
+                <element signature="method#hasWord#0;class#Sentence#0" expanded="false" />
+                <element signature="method#getFrequencyofWord#0;class#Sentence#0" expanded="false" />
+                <element signature="method#getMysentence#0;class#Sentence#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextRankKeyword.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TextRank/TextRankKeyword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.62963" vertical-offset="1223" max-vertical-offset="1872">
+              <caret line="96" column="28" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Word.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/languageunit/Word.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0" vertical-offset="328" max-vertical-offset="2640">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="21" />
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="19" />
+              <folding>
+                <element signature="e#1633#1634#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Canvas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/storyextraction/Canvas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/storyextraction/MainWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceRank.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TextRank/SentenceRank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.62963" vertical-offset="1239" max-vertical-offset="1888">
+              <caret line="92" column="28" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/TextRank/BM25.java" />
         <option value="$PROJECT_DIR$/src/Function/splitFunction.java" />
-        <option value="$PROJECT_DIR$/src/languageunit/NounUnit.java" />
-        <option value="$PROJECT_DIR$/src/TextRank/TextRankSummary.java" />
         <option value="$PROJECT_DIR$/src/languageunit/KeywordWeight.java" />
         <option value="$PROJECT_DIR$/src/languageunit/Sentence.java" />
-        <option value="$PROJECT_DIR$/src/TextRank/OkapiBM25.java" />
         <option value="$PROJECT_DIR$/src/TextRank/TextRankKeyword.java" />
-        <option value="$PROJECT_DIR$/src/languageunit/Paragraph.java" />
-        <option value="$PROJECT_DIR$/src/TextRank/SentenceRank.java" />
         <option value="$PROJECT_DIR$/src/storyextraction/Canvas.java" />
-        <option value="$PROJECT_DIR$/src/storyextraction/Parse.java" />
+        <option value="$PROJECT_DIR$/src/Logger/Logger.java" />
+        <option value="$PROJECT_DIR$/src/languageunit/NounUnit.java" />
+        <option value="$PROJECT_DIR$/src/languageunit/Paragraph.java" />
         <option value="$PROJECT_DIR$/src/languageunit/Word.java" />
+        <option value="$PROJECT_DIR$/src/TextRank/OkapiBM25.java" />
+        <option value="$PROJECT_DIR$/src/TextRank/SentenceRank.java" />
+        <option value="$PROJECT_DIR$/src/TextRank/TextRankSummary.java" />
         <option value="$PROJECT_DIR$/src/storyextraction/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/storyextraction/Parse.java" />
       </list>
     </option>
   </component>
@@ -105,6 +225,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TextRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -138,7 +262,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StroyExtraction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoryExtraction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="languageunit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StroyExtraction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoryExtraction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Function" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,7 +519,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -377,7 +537,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -408,7 +568,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -417,20 +577,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TextRank/OkapiBM25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1024">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#OkapiBM25#0;class#OkapiBM25#0" expanded="false" />
-            <element signature="method#getUpperK#0;class#OkapiBM25#0" expanded="false" />
-            <element signature="method#getScore#0;class#OkapiBM25#0" expanded="false" />
-            <element signature="method#PrintBM25#0;class#OkapiBM25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/storyextraction/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
@@ -479,10 +625,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Paragraph#0;class#Paragraph#0" expanded="false" />
             <element signature="method#initialize#0;class#Paragraph#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="method#printParagraph#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getKeywordRank#0;class#Paragraph#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
             <element signature="method#containsWord#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getWordNum#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Paragraph#0" expanded="false" />
@@ -512,6 +656,7 @@
             <element signature="method#printSentence#0;class#Sentence#0" expanded="false" />
             <element signature="method#hasWord#0;class#Sentence#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Sentence#0" expanded="false" />
+            <element signature="method#getMysentence#0;class#Sentence#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -586,10 +731,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Paragraph#0;class#Paragraph#0" expanded="false" />
             <element signature="method#initialize#0;class#Paragraph#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="method#printParagraph#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getKeywordRank#0;class#Paragraph#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
             <element signature="method#containsWord#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getWordNum#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Paragraph#0" expanded="false" />
@@ -619,6 +762,7 @@
             <element signature="method#printSentence#0;class#Sentence#0" expanded="false" />
             <element signature="method#hasWord#0;class#Sentence#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Sentence#0" expanded="false" />
+            <element signature="method#getMysentence#0;class#Sentence#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -639,10 +783,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Paragraph#0;class#Paragraph#0" expanded="false" />
             <element signature="method#initialize#0;class#Paragraph#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="method#printParagraph#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getKeywordRank#0;class#Paragraph#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
             <element signature="method#containsWord#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getWordNum#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Paragraph#0" expanded="false" />
@@ -672,6 +814,7 @@
             <element signature="method#printSentence#0;class#Sentence#0" expanded="false" />
             <element signature="method#hasWord#0;class#Sentence#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Sentence#0" expanded="false" />
+            <element signature="method#getMysentence#0;class#Sentence#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,10 +842,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Paragraph#0;class#Paragraph#0" expanded="false" />
             <element signature="method#initialize#0;class#Paragraph#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="method#printParagraph#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getKeywordRank#0;class#Paragraph#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
             <element signature="method#containsWord#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getWordNum#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Paragraph#0" expanded="false" />
@@ -729,6 +870,7 @@
             <element signature="method#printSentence#0;class#Sentence#0" expanded="false" />
             <element signature="method#hasWord#0;class#Sentence#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Sentence#0" expanded="false" />
+            <element signature="method#getMysentence#0;class#Sentence#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -747,10 +889,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="375">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -794,10 +933,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Paragraph#0;class#Paragraph#0" expanded="false" />
             <element signature="method#initialize#0;class#Paragraph#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="method#printParagraph#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getKeywordRank#0;class#Paragraph#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
             <element signature="method#containsWord#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getWordNum#0;class#Paragraph#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Paragraph#0" expanded="false" />
@@ -817,6 +954,7 @@
             <element signature="method#printSentence#0;class#Sentence#0" expanded="false" />
             <element signature="method#hasWord#0;class#Sentence#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Sentence#0" expanded="false" />
+            <element signature="method#getMysentence#0;class#Sentence#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -844,86 +982,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Function/splitFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40250447" vertical-offset="0" max-vertical-offset="559">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="736">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/languageunit/NounUnit.java">
+    <entry file="file://$PROJECT_DIR$/src/Logger/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="615">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextRank/BM25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5941782" vertical-offset="0" max-vertical-offset="1980">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1187#1204#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/languageunit/KeywordWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22678186" vertical-offset="0" max-vertical-offset="463">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/languageunit/NounUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/languageunit/Paragraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1040">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Paragraph#0;class#Paragraph#0" expanded="false" />
+            <element signature="method#initialize#0;class#Paragraph#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="method#containsWord#0;class#Paragraph#0" expanded="false" />
+            <element signature="method#getWordNum#0;class#Paragraph#0" expanded="false" />
+            <element signature="method#getFrequencyofWord#0;class#Paragraph#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/languageunit/Word.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14201184" vertical-offset="0" max-vertical-offset="2640">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state vertical-scroll-proportion="-8.0" vertical-offset="328" max-vertical-offset="2640">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="21" />
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="19" />
           <folding>
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storyextraction/Parse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.962963" vertical-offset="3335" max-vertical-offset="3984">
-          <caret line="179" column="30" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storyextraction/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49704143" vertical-offset="0" max-vertical-offset="676">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextRank/OkapiBM25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52662724" vertical-offset="348" max-vertical-offset="1024">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#OkapiBM25#0;class#OkapiBM25#0" expanded="false" />
-            <element signature="method#getUpperK#0;class#OkapiBM25#0" expanded="false" />
-            <element signature="method#getScore#0;class#OkapiBM25#0" expanded="false" />
-            <element signature="method#PrintBM25#0;class#OkapiBM25#0" expanded="false" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/storyextraction/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71005917" vertical-offset="0" max-vertical-offset="676">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
           <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -931,10 +1058,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextRank/TextRankKeyword.java">
+    <entry file="file://$PROJECT_DIR$/src/TextRank/BM25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5976331" vertical-offset="1196" max-vertical-offset="1872">
-          <caret line="105" column="52" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
+        <state vertical-scroll-proportion="-8.0" vertical-offset="904" max-vertical-offset="2112">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1187#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TextRank/OkapiBM25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.62963" vertical-offset="583" max-vertical-offset="1232">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#OkapiBM25#0;class#OkapiBM25#0" expanded="false" />
+            <element signature="method#getUpperK#0;class#OkapiBM25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TextRank/SentenceRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.62963" vertical-offset="1239" max-vertical-offset="1888">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -943,37 +1093,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TextRank/TextRankSummary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="3510">
-          <caret line="124" column="13" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="13" />
+        <state vertical-scroll-proportion="3.550077" vertical-offset="0" max-vertical-offset="3744">
+          <caret line="144" column="26" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/languageunit/Paragraph.java">
+    <entry file="file://$PROJECT_DIR$/src/TextRank/TextRankKeyword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4556213" vertical-offset="92" max-vertical-offset="768">
-          <caret line="39" column="5" selection-start-line="37" selection-start-column="28" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Paragraph#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#initialize#0;class#Paragraph#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="method#printParagraph#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getKeywordRank#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#containsWord#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getWordNum#0;class#Paragraph#0" expanded="false" />
-            <element signature="method#getFrequencyofWord#0;class#Paragraph#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextRank/SentenceRank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1755">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="31" />
+        <state vertical-scroll-proportion="-8.62963" vertical-offset="1223" max-vertical-offset="1872">
+          <caret line="96" column="28" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -982,8 +1113,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/languageunit/Sentence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35502958" vertical-offset="0" max-vertical-offset="676">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Sentence#0;class#Sentence#0" expanded="false" />
@@ -992,7 +1123,26 @@
             <element signature="method#printSentence#0;class#Sentence#0" expanded="false" />
             <element signature="method#hasWord#0;class#Sentence#0" expanded="false" />
             <element signature="method#getFrequencyofWord#0;class#Sentence#0" expanded="false" />
+            <element signature="method#getMysentence#0;class#Sentence#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storyextraction/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storyextraction/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50693375" vertical-offset="199" max-vertical-offset="3952">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

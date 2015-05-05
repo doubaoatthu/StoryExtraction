@@ -1,6 +1,7 @@
 package languageunit;
 
 import java.util.ArrayList;
+import Logger.Logger;
 
 /**
  * Created by vera on 15-3-15.
@@ -27,7 +28,7 @@ public class NounUnit {
         return;
     }
     public void printUnit(){
-        System.out.println(w.getWord()+" "+frequency);
+        Logger.log(w.getLabel() + " " + frequency);
     }
     public Word getWord(){
         return w;

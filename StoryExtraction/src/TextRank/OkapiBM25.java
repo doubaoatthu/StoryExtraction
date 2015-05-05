@@ -1,5 +1,6 @@
 package TextRank;
 
+import Logger.Logger;
 import languageunit.*;
 
 import java.util.ArrayList;
@@ -64,7 +65,7 @@ public class OkapiBM25 {
     private double getScore(Paragraph p, int p_iter){
         double sum = 0;
         for(int i = 0; i < query.size(); i++){
-            System.out.println("lowerf:"+getLowerFi(query.get(i), p) * (k1 + 1));
+            Logger.log("lowerf:" + getLowerFi(query.get(i), p) * (k1 + 1));
             sum += IDF.get(i)*(getLowerFi(query.get(i), p) * (k1 + 1))/(getLowerFi(query.get(i), p) + UpperK.get(p_iter));
         }
         return sum;
@@ -73,10 +74,10 @@ public class OkapiBM25 {
         return Score;
     }
     public void PrintBM25(){
-        System.out.println("QuerySize: \n   "+query);
-        System.out.println("IDF:\n   "+ IDF);
-        System.out.println("UpperK: \n   "+UpperK);
-        System.out.println("Score: \n   "+Score);
+      Logger.log("QuerySize: \n   " + query);
+      Logger.log("IDF:\n   " + IDF);
+      Logger.log("UpperK: \n   " + UpperK);
+      Logger.log("Score: \n   " + Score);
     }
     public ArrayList<Integer> TimesEachSplit(){
         ArrayList<Integer> toret = new ArrayList<Integer>();

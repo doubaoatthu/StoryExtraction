@@ -1,5 +1,6 @@
 package languageunit;
 
+import Logger.Logger;
 import storyextraction.Parse;
 
 import java.io.BufferedReader;
@@ -57,7 +58,7 @@ public class Word {
         return word;
     }
     public void printWord(){
-        System.out.print(word);
+        Logger.log(word);
     }
     private void matchLabel(String _label){
         if(_label.equals("A".toLowerCase()))

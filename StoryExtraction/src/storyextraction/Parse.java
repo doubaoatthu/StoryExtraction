@@ -1,5 +1,6 @@
 package storyextraction;
 
+import Logger.Logger;
 import languageunit.Paragraph;
 import Function.*;
 import languageunit.Sentence;
@@ -43,10 +44,8 @@ public class Parse {
   public String produceAnswer(Paragraph p, String sentence) {
     StringBuilder ret = new StringBuilder();
     ret.append(sentence);
-    ret.append("\n\n");
     for(Sentence s : p.getSentences())
-      ret.append(s.getMysentence());
-    ret.append("\n");
+      Logger.log(s.getMysentence());
     return ret.toString();
   }
 
@@ -160,7 +159,7 @@ public class Parse {
                 return 0;
             sum += locsplit_times[i];
         }
-        System.out.println("sum"+ sum);
+        Logger.log("sum" + sum);
         return sum;
 
     }
@@ -172,12 +171,12 @@ public class Parse {
             for (String s : parts) {
                 String[] segment = s.split("/");
                 if (segment.length >= 2) {
-                    System.out.println(segment[1]);
+                    Logger.log(segment[1]);
                     toret.add(segment[0]);
                 }
 
             }
-            System.out.println("split parse:" + toret);
+            Logger.log("split parse:" + toret);
             return toret;
         }
         else{
@@ -243,10 +242,10 @@ public class Parse {
       }
       else{
         for(Paragraph pa : paragraph){
-          toRet.append(produceAnswer(pa, ""));
+          toRet.append(produceAnswer(pa, "Not Found"));
         }
       }
-      return toRet.toString();
+      return toRet.toString() + "\n===\n";
     }
 }
 /**

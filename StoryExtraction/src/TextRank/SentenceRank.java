@@ -62,16 +62,17 @@ public class SentenceRank {
         for(int i = 0; i < sentence_self_weight.size(); i++){
             if(sentence_self_weight.get(i) >= thold){
                 start = i;
-              Logger.log("Start sentence index:" + i + " weight:" + sentence_self_weight.get(i));
+              Logger.log("Start sentence index:" + i + "\nSentence:"+sentences.get(i).getMysentence()+"\nweight:" + sentence_self_weight.get(i));
                 break;
             }
         }
         int maxi = 0;
         for(int i = 0; i < sentence_self_weight.size(); i++){
+            Logger.log("Find max sentence index:" + i + "\nSentence:"+paragraph.sentences.get(i).getMysentence()+"\nweight:" + sentence_self_weight.get(i));
             if(sentence_self_weight.get(i) >= sentence_self_weight.get(maxi))
                 maxi = i;
         }
-      Logger.log("Max sentence index:" + maxi + " weight:" + sentence_self_weight.get(maxi));
+        Logger.log("Max sentence index:" + maxi + "\nSentence:"+sentences.get(maxi).getMysentence()+"\nweight:" + sentence_self_weight.get(maxi));
         ArrayList<Word> keylist = new ArrayList<Word>();
         for(int i = start; i <= maxi; i++){
             sentences.get(i).getKeywords(keylist);
@@ -80,7 +81,7 @@ public class SentenceRank {
             double nearbyWeight = getNearbyWeight(sentences.get(i),keylist);
             double totalWeight = nearbyWeight + sentence_self_weight.get(i);
             if(totalWeight >= thold2){
-              Logger.log("check sentence index:" + i + " total weight:" + totalWeight);
+              Logger.log("check sentence index:" + i +"\nSentence"+sentences.get(i).getMysentence()+ "\ntotal weight:" + totalWeight);
                 sentences.get(i).getKeywords(keylist);
             }
             else{
